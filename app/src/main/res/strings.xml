@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DCxMarvel</string>
+    <string name="attack">Attack</string>
+    <string name="back">Back</string>
+    <string name="buy">Buy</string>
+    <string name="choose_your_deck">CHOOSE YOUR DECK</string>
+    <string name="close">Close</string>
+    <string name="defense">Defense</string>
+    <string name="draw">Draw</string>
+    <string name="play_again">Play Again</string>
+    <string name="score">Score</string>
+    <string name="use">Use</string>
+    <string name="you_lost">You Lost</string>
+    <string name="you_won">You Won</string>
+    <string name="atk">AT</string>
+    <string name="dc">DC</string>
+    <string name="def">DF</string>
+    <string name="marvel">Marvel</string>
+</resources>
