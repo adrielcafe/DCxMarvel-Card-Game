@@ -31,7 +31,7 @@ MERGED from com.android.support:support-v4:21.0.3:16:5
 		ADDED from AndroidManifest.xml:12:9
 	android:name
 		ADDED from AndroidManifest.xml:8:9
-activity#com.adrielcafe.dcxmarvel.MainActivity
+activity#com.adrielcafe.dcxmrvl.MainActivity
 ADDED from AndroidManifest.xml:13:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:16:13
@@ -49,7 +49,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:19:17
 	android:name
 		ADDED from AndroidManifest.xml:19:27
-activity#com.adrielcafe.dcxmarvel.GameActivity
+activity#com.adrielcafe.dcxmrvl.GameActivity
 ADDED from AndroidManifest.xml:22:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:24:13

@@ -1,4 +1,4 @@
-package com.adrielcafe.dcxmarvel.model;
+package com.adrielcafe.dcxmrvl.model;
 
 import java.io.Serializable;
 

@@ -1,9 +1,8 @@
-package com.adrielcafe.dcxmarvel;
+package com.adrielcafe.dcxmrvl;
 
 import android.app.Application;
-import android.widget.Toast;
 
-import com.adrielcafe.dcxmarvel.model.Card;
+import com.adrielcafe.dcxmrvl.model.Card;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
