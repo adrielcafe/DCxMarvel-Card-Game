@@ -1,0 +1,72 @@
+[
+	{
+		"name": "Hulk",
+		"attack": 7,
+		"defense": 7,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-1799.aspx",
+		"imagePath": "decks/marvel/hulk.png"
+	}, 
+	{
+		"name": "Venom",
+		"attack": 6,
+		"defense": 5,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-264.aspx",
+		"imagePath": "decks/marvel/venom.png"
+	}, 
+	{
+		"name": "Vampira",
+		"attack": 6,
+		"defense": 3,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-261.aspx",
+		"imagePath": "decks/marvel/vampira.png"
+	}, 
+	{
+		"name": "Ultron",
+		"attack": 10,
+		"defense": 8,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-258.aspx",
+		"imagePath": "decks/marvel/ultron.png"
+	}, 
+	{
+		"name": "Ciclope",
+		"attack": 8,
+		"defense": 4,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-257.aspx",
+		"imagePath": "decks/marvel/ciclope.png"
+	}, 
+	{
+		"name": "Demolidor",
+		"attack": 8,
+		"defense": 9,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-245.aspx",
+		"imagePath": "decks/marvel/demolidor.png"
+	}, 
+	{
+		"name": "Fênix",
+		"attack": 8,
+		"defense": 6,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-243.aspx",
+		"imagePath": "decks/marvel/fenix.png"
+	}, 
+	{
+		"name": "Deadpool",
+		"attack": 7,
+		"defense": 10,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-3159.aspx",
+		"imagePath": "decks/marvel/deadpool.png"
+	}, 
+	{
+		"name": "Homem de Ferro",
+		"attack": 9,
+		"defense": 9,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-244.aspx",
+		"imagePath": "decks/marvel/ironman.png"
+	}, 
+	{
+		"name": "Homem-Aranha",
+		"attack": 7,
+		"defense": 6,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-57.aspx",
+		"imagePath": "decks/marvel/spiderman.png"
+	}
+]

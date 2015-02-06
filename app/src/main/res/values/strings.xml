@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DCxMarvel</string>
+
+    <string name="close">Fechar</string>
+    <string name="marvel">Marvel</string>
+    <string name="dc">DC</string>
+    <string name="choose_your_deck">ESCOLHA SEU DECK</string>
+    <string name="score">Pontos</string>
+    <string name="attack">Ataque</string>
+    <string name="defense">Defesa</string>
+    <string name="atk">AT</string>
+    <string name="def">DF</string>
+    <string name="use">Usar</string>
+    <string name="buy">Comprar</string>
+    <string name="back">Voltar</string>
+    <string name="you_won">Você Venceu</string>
+    <string name="you_lost">Você Perdeu</string>
+    <string name="draw">Empate</string>
+    <string name="play_again">Jogar Novamente</string>
+</resources>

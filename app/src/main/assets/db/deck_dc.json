@@ -1,0 +1,72 @@
+[
+	{
+		"name": "Ra's Al Ghul",
+		"attack": 7,
+		"defense": 7,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-3200.aspx",
+		"imagePath": "decks/dc/rasalghul.png"
+	}, 
+	{
+		"name": "Duas Caras",
+		"attack": 5,
+		"defense": 3,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-3127.aspx",
+		"imagePath": "decks/dc/duascaras.png"
+	}, 
+	{
+		"name": "Asa Noturna",
+		"attack": 6,
+		"defense": 6,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-3058.aspx",
+		"imagePath": "decks/dc/asanoturna.png"
+	}, 
+	{
+		"name": "Caçador de Marte",
+		"attack": 7,
+		"defense": 7,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-3057.aspx",
+		"imagePath": "decks/dc/cacadordemarte.png"
+	}, 
+	{
+		"name": "Shazam!",
+		"attack": 9,
+		"defense": 8,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-3054.aspx",
+		"imagePath": "decks/dc/shazam.png"
+	}, 
+	{
+		"name": "Mulher Gato",
+		"attack": 6,
+		"defense": 5,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-1864.aspx",
+		"imagePath": "decks/dc/mulhergato.png"
+	}, 
+	{
+		"name": "Batman",
+		"attack": 8,
+		"defense": 8,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-59.aspx",
+		"imagePath": "decks/dc/batman.png"
+	}, 
+	{
+		"name": "Coringa",
+		"attack": 7,
+		"defense": 6,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-269.aspx",
+		"imagePath": "decks/dc/coringa.png"
+	}, 
+	{
+		"name": "Darkseid",
+		"attack": 9,
+		"defense": 10,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Edicao-Especial-Darkseid.aspx",
+		"imagePath": "decks/dc/darkseid.png"
+	}, 
+	{
+		"name": "Sinestro",
+		"attack": 8,
+		"defense": 8,
+		"link": "http://lojaeaglemossbrasil.com.br/eaglemoss/produto/Produto-3201.aspx",
+		"imagePath": "decks/dc/sinestro.png"
+	}
+]

@@ -1,0 +1,208 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/board_bg"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/p2_deck_card1"
+                android:background="@drawable/border_red"
+                style="@style/CardStyle"/>
+
+            <ImageView
+                android:id="@+id/p2_deck_card2"
+                android:background="@drawable/border_red"
+                style="@style/CardStyle"/>
+
+            <ImageView
+                android:id="@+id/p2_deck_card3"
+                android:background="@drawable/border_red"
+                style="@style/CardStyle"/>
+
+            <ImageView
+                android:id="@+id/p2_deck_card4"
+                android:background="@drawable/border_red"
+                style="@style/CardStyle"/>
+
+            <ImageView
+                android:id="@+id/p2_deck_card5"
+                android:background="@drawable/border_red"
+                style="@style/CardStyle"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/p2_score"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="@string/score"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/p1_board_card"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_margin="20dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@drawable/border_blue"
+            android:onClick="showBoardCardName"/>
+
+        <ImageView
+            android:id="@+id/p2_board_card"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_margin="20dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@drawable/border_red"
+            android:onClick="showBoardCardName"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/p1_board_card_attr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/p2_board_card_attr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.28"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/p1_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="@string/score"/>
+
+            <Button
+                android:id="@+id/reset_game"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="@string/play_again"
+                android:visibility="invisible"
+                android:onClick="resetGame"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/p1_deck_card1"
+                android:background="@drawable/border_blue"
+                android:onClick="showCard"
+                style="@style/CardStyle"/>
+
+            <ImageView
+                android:id="@+id/p1_deck_card2"
+                android:background="@drawable/border_blue"
+                android:onClick="showCard"
+                style="@style/CardStyle"/>
+
+            <ImageView
+                android:id="@+id/p1_deck_card3"
+                android:background="@drawable/border_blue"
+                android:onClick="showCard"
+                style="@style/CardStyle"/>
+
+            <ImageView
+                android:id="@+id/p1_deck_card4"
+                android:background="@drawable/border_blue"
+                android:onClick="showCard"
+                style="@style/CardStyle"/>
+
+            <ImageView
+                android:id="@+id/p1_deck_card5"
+                android:background="@drawable/border_blue"
+                android:onClick="showCard"
+                style="@style/CardStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
